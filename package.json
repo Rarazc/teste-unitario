@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "jest:converage": "jest --converage",
+    "backend": "json-server --watch db/db.json"
   },
   "author": "",
   "license": "ISC",
